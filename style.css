@@ -1,0 +1,108 @@
+.body {
+    background: linear-gradient(to bottom, #00bcd4, #2196f3);
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    width: 50vw;
+    margin: auto;
+}
+
+.navi {
+    display: flex;
+    justify-content: flex-start;
+    width: 50vw;
+    margin-left: 27%;
+    margin-bottom: 10px;
+}
+
+.navi > img {
+    border-radius: 50px;
+}
+
+.navi > p {
+    margin-left: 5px;
+    font-size: larger;
+}
+
+.container {
+    margin: auto;
+    width: 50vw;
+    border: 2px solid white;
+    height: 70vh;
+    overflow: auto;
+    background-color:transparent
+}
+.message {
+    background-color: #dcdcdc; 
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    margin: 10px 5px;
+    border: 2px solid black;
+}
+
+.left {
+    float: left;
+    clear: both;
+}
+
+.right {
+    float: right;
+    clear: both;
+}
+
+.form {
+    width: 50vw;
+    margin: auto;
+    margin-top: 10px;
+    gap: 2px;
+}
+
+#input {
+    border-radius: 10px;
+    height: 15px;
+    width: 43vw;
+    padding: 10px;
+    border: 2px solid #3498db;
+}
+
+.button {
+    height: 40px; 
+    border: 2px solid black ;
+    background-color: #3498db; 
+    color: #fff; 
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: column; 
+        align-items: center; 
+    }
+
+    .nav,
+    .container,
+    .form {
+        width: 90vw; 
+    }
+    
+    .form {
+        display: flex;
+    }
+
+    #input {
+        width: 80vw; 
+    }
+}
